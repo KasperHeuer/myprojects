@@ -30,6 +30,8 @@ body {
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 form {
@@ -80,6 +82,8 @@ input[type="submit"]:hover {
   padding: 10px 15px;
   border-radius: 4px;
   transition: all 0.2s ease;
+  border: 1px solid white;
+  margin: 5px;
 }
 
 .Link:hover {

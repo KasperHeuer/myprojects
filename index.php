@@ -11,6 +11,7 @@
 <body>
     <div class="container">
         <a href="temp.php" class="Link" id="Temp">Temprature converter</a>
+        <a href="guess.php" class="Link" id="Link">Guess the number</a>
     </div>
 </body>
 
