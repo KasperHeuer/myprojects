@@ -1,0 +1,112 @@
+/* Dark Mode CSS */
+:root {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --link-color: #64b5f6;
+  --link-hover-color: #90caf9;
+  --container-bg: #1e1e1e;
+  --button-bg: #3f3f3f;
+  --button-hover-bg: #616161;
+  --input-bg: #2a2a2a;
+  --input-border-color: #444;
+  --input-focus-border: #64b5f6;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+
+.container {
+  width: 80%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: var(--container-bg);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+select,
+input[type="number"] {
+  background-color: var(--input-bg);
+  color: var(--text-color);
+  border: 1px solid var(--input-border-color);
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: all 0.2s ease;
+}
+
+
+
+select:focus,
+input[type="number"]:focus {
+  border-color: var(--input-focus-border);
+  outline: none;
+}
+
+input[type="submit"] {
+  background-color: var(--button-bg);
+  color: var(--text-color);
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--button-hover-bg);
+}
+
+.Link {
+  display: inline-block;
+  color: var(--link-color);
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.Link:hover {
+  color: var(--link-hover-color);
+  background-color: rgba(255, 255, 255, 0.05);
+  transform: translateY(-2px);
+}
+
+.dark-mode-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: 1px solid var(--text-color);
+  color: var(--text-color);
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #2a2a2a;
+  color: #64b5f6;
+  font-size: 18px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
