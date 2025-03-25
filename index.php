@@ -14,6 +14,7 @@
         <a href="guess.php" class="Link" id="Link">Guess the number</a>
         <a href="vote.php" class="Link" id="Vote">Voting system</a>
         <a href="chat.php" class="Link" id="Vote">Chat</a>
+        <a href="calculator.php" class="Link" id="Vote">Calculator</a>
     </div>
 </body>
 
