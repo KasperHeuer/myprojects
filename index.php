@@ -13,6 +13,7 @@
         <a href="temp.php" class="Link" id="Temp">Temprature converter</a>
         <a href="guess.php" class="Link" id="Link">Guess the number</a>
         <a href="vote.php" class="Link" id="Vote">Voting system</a>
+        <a href="chat.php" class="Link" id="Vote">Chat</a>
     </div>
 </body>
 
